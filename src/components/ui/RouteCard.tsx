@@ -32,7 +32,7 @@ const RouteCard = ({
 }: RouteCardProps) => {
   return (
     <div className={cn(
-      "glass rounded-xl p-5 sm:p-6 transition-all duration-300 hover:shadow-md",
+      "glass rounded-xl p-5 sm:p-6 transition-all duration-300 hover:shadow-md border border-white/30",
       className
     )}>
       <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
@@ -45,7 +45,7 @@ const RouteCard = ({
             </div>
             <div className="text-right">
               <p className="text-xs text-muted-foreground mb-1">Price from</p>
-              <p className="font-semibold text-lg text-primary">{price}</p>
+              <p className="font-semibold text-lg text-accent">{price}</p>
             </div>
           </div>
           
@@ -61,10 +61,10 @@ const RouteCard = ({
                 <p className="text-xs text-muted-foreground bg-white px-2">{duration}</p>
               </div>
               <div className="absolute -top-2 left-0">
-                <div className="w-2 h-2 rounded-full bg-primary"></div>
+                <div className="w-2 h-2 rounded-full bg-accent"></div>
               </div>
               <div className="absolute -top-2 right-0">
-                <div className="w-2 h-2 rounded-full bg-primary"></div>
+                <div className="w-2 h-2 rounded-full bg-accent"></div>
               </div>
             </div>
             
@@ -88,7 +88,7 @@ const RouteCard = ({
             </div>
           </div>
           
-          <Button className="w-full group">
+          <Button className="w-full group bg-gradient-purple hover:opacity-90">
             <span>Book Now</span>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>

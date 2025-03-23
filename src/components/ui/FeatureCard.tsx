@@ -20,8 +20,8 @@ const FeatureCard = ({
       "glass rounded-xl p-6 transition-all duration-300 hover:shadow-md hover:-translate-y-1 group",
       className
     )}>
-      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-        <Icon className="h-6 w-6 text-primary" />
+      <div className="w-12 h-12 rounded-full bg-accent/15 flex items-center justify-center mb-5 group-hover:bg-accent/25 transition-colors">
+        <Icon className="h-6 w-6 text-accent" />
       </div>
       
       <h3 className="text-lg font-semibold mb-3">{title}</h3>

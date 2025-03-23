@@ -20,9 +20,9 @@ const BookingForm = ({ className }: { className?: string }) => {
   };
 
   return (
-    <div className={cn('glass rounded-2xl p-6 sm:p-8', className)}>
+    <div className={cn('glass rounded-2xl p-6 sm:p-8 border-accent/10 shadow-md', className)}>
       <h2 className="text-lg sm:text-xl font-semibold mb-6 flex items-center">
-        <Train className="w-5 h-5 mr-2 text-primary" />
+        <Train className="w-5 h-5 mr-2 text-accent" />
         Book Your Journey
       </h2>
       
@@ -93,7 +93,7 @@ const BookingForm = ({ className }: { className?: string }) => {
           </Popover>
         </div>
         
-        <Button type="submit" className="w-full group">
+        <Button type="submit" className="w-full group bg-gradient-purple hover:opacity-90">
           <span>Search Trains</span>
           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Button>

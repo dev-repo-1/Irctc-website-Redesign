@@ -12,8 +12,8 @@ const Hero = () => {
     <section className="relative min-h-screen pt-24 pb-16 overflow-hidden">
       {/* Background shapes */}
       <div className="absolute inset-0 overflow-hidden -z-10">
-        <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary/5"></div>
-        <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/5"></div>
+        <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-accent/10"></div>
+        <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/10"></div>
         <div className="absolute bottom-0 right-0 w-72 h-72 rounded-full bg-primary/5"></div>
       </div>
       
@@ -26,7 +26,7 @@ const Hero = () => {
             <span className="block text-4xl md:text-5xl font-bold mb-4">
               Travel Across India
             </span>
-            <span className="block text-4xl md:text-5xl font-bold bg-gradient-blue bg-clip-text text-transparent">
+            <span className="block text-4xl md:text-5xl font-bold bg-gradient-purple bg-clip-text text-transparent">
               With Ease & Comfort
             </span>
           </h1>
@@ -51,7 +51,7 @@ const Hero = () => {
               {[1, 2, 3, 4].map((i) => (
                 <div 
                   key={i} 
-                  className="w-8 h-8 rounded-full bg-gradient-card"
+                  className="w-8 h-8 rounded-full bg-gradient-card shadow-md"
                   style={{ 
                     backgroundImage: `url(https://randomuser.me/api/portraits/men/${20 + i}.jpg)`,
                     backgroundSize: 'cover'

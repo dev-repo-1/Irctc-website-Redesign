@@ -147,7 +147,10 @@ export default {
 			backgroundImage: {
 				'gradient-glass': 'linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 100%)',
 				'gradient-card': 'linear-gradient(130deg, rgba(235, 236, 237, 0.1) 0%, rgba(205, 212, 217, 0.3) 100%)',
-				'gradient-blue': 'linear-gradient(135deg, #34c3ff 0%, #2b88ea 100%)',
+				'gradient-blue': 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
+				'gradient-purple': 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
+				'gradient-sunset': 'linear-gradient(to right, #ee9ca7, #ffdde1)',
+				'gradient-ocean': 'linear-gradient(to top, #accbee 0%, #e7f0fd 100%)',
 			}
 		}
 	},
