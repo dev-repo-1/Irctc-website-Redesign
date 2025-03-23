@@ -1,6 +1,7 @@
 
 import { useInView, getAnimationClass } from '@/utils/animations';
 import BookingForm from '../shared/BookingForm';
+import { cn } from '@/lib/utils';
 
 const Hero = () => {
   const { ref: titleRef, isInView: titleInView } = useInView({ threshold: 0.1 });
