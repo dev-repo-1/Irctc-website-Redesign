@@ -1,69 +1,78 @@
-# Welcome to your Lovable project
+IRCTC Website Redesign
+Welcome to the redesigned interface of the Indian Railway Catering and Tourism Corporation (IRCTC) website. Our goal is to enhance your experience by providing a modern, user-friendly platform for booking train tickets and accessing related services.
 
-## Project info
+Live Demo
+Explore the redesigned website here: https://sleek-railway-design.lovable.app/
 
-**URL**: https://lovable.dev/projects/7c16c89c-026f-41b7-867c-e554a618b51c
+Features
+Modern User Interface: A refreshed design with intuitive navigation and a clean layout to improve usability.​
 
-## How can I edit this code?
+Responsive Design: Optimized for various devices, ensuring a seamless experience on desktops, tablets, and smartphones.​
 
-There are several ways of editing your application.
+Enhanced Search Functionality: Improved filters and sorting options to help you find trains and services more efficiently.​
+Behance
++2
+GitHub
++2
+Dribbble
++2
 
-**Use Lovable**
+Secure Booking Process: Streamlined and secure ticket booking with clear prompts and confirmations.​
+GitHub
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7c16c89c-026f-41b7-867c-e554a618b51c) and start prompting.
+Accessibility Features: Incorporated accessibility options to cater to all users, including those with disabilities.​
 
-Changes made via Lovable will be committed automatically to this repo.
+Technologies Used
+Frontend: Developed using Vite and React for a fast and modular architecture.​
 
-**Use your preferred IDE**
+Styling: Utilized Tailwind CSS for consistent and responsive design.​
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Animations: Implemented Framer Motion to add engaging animations and transitions.​
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+State Management: Managed application state using Zustand for a predictable and scalable state management solution.​
 
-Follow these steps:
+API Management: Handled data fetching and caching with React Query to ensure efficient data management.​
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Getting Started
+To run the project locally:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Clone the repository:
 
-# Step 3: Install the necessary dependencies.
-npm i
+bash
+Copy
+Edit
+git clone https://github.com/your-username/irctc-website-redesign.git
+Navigate to the project directory:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy
+Edit
+cd irctc-website-redesign
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
 npm run dev
-```
+Open your browser and visit http://localhost:3000 to view the application.
 
-**Edit a file directly in GitHub**
+Contributing
+We welcome contributions to improve the website further. Please fork the repository and create a pull request with your enhancements.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-**Use GitHub Codespaces**
+Acknowledgments
+We appreciate the designers and developers who have previously worked on IRCTC redesign concepts, providing inspiration for this project. Notable mentions include:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+IRCTC Website Redesign - Case Study
 
-## What technologies are used for this project?
+Redesigning India's Most-Used Website
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7c16c89c-026f-41b7-867c-e554a618b51c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Thank you for visiting the redesigned IRCTC website. We hope you enjoy the improved experience!
