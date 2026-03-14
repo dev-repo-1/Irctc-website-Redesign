@@ -1,12 +1,12 @@
 # SEO Health Report: https://agentmarketplace.vercel.app
-> Full Deep Scan completed on Sat, 14 Mar 2026 06:57:50 GMT
+> Full Deep Scan completed on Sat, 14 Mar 2026 07:45:33 GMT
 
 ## 📊 Executive Summary
 | Category | Score | Status |
 | :--- | :--- | :--- |
-| **Overall Health** | **58%** | ❌ Critical |
+| **Overall Health** | **54%** | ❌ Critical |
 | Basic SEO | 80% | ✅ |
-| Advanced SEO | 25% | ⚠️ |
+| Advanced SEO | 13% | ⚠️ |
 | Performance | 33% | ⚠️ |
 | Security | 100% | ✅ |
 
@@ -59,8 +59,8 @@
 #### ⚠️ Schema Data
 > No JSON-LD structured data found.
 
-#### ✅ Broken Links
-> No broken internal links found.
+#### ❌ Broken Links
+> Found 2 broken links on the page.
 
 #### ⚠️ Robots Txt
 > Robots.txt file is missing. It helps search engines crawl your site.
@@ -77,7 +77,7 @@
 > The size of the HTML document is 202 Kb.
 
 #### ✅ Response Time
-> The average response time of the page is 0.09 seconds.
+> The average response time of the page is 0.08 seconds.
 
 #### ⚠️ Page Objects
 > We found 63 objects on your page (41 images, 20 JS, 2 CSS).
