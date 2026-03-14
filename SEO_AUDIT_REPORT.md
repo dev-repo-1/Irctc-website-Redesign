@@ -1,40 +1,40 @@
-# SEO Health Report: https://agentmarketplace.vercel.app
-> Full Deep Scan completed on Sat, 14 Mar 2026 10:01:43 GMT
+# SEO Health Report: https://cgmscldemo.vercel.app
+> Full Deep Scan completed on Sat, 14 Mar 2026 10:02:58 GMT
 
 ## 📊 Executive Summary
 | Category | Score | Status |
 | :--- | :--- | :--- |
-| **Overall Health** | **58%** | ❌ Critical |
-| Basic SEO | 80% | ✅ |
-| Advanced SEO | 25% | ⚠️ |
-| Performance | 33% | ⚠️ |
+| **Overall Health** | **63%** | ❌ Critical |
+| Basic SEO | 50% | ⚠️ |
+| Advanced SEO | 50% | ⚠️ |
+| Performance | 100% | ✅ |
 | Security | 100% | ✅ |
 
 ## 🛠️ Basic SEO Findings
 
 #### ✅ Common Keywords
-> Here are the most common keywords we found on the page: agent, agents, marketplace, autonomous, specialized, enterprise, guardrails, private, integration, deployment
+> Here are the most common keywords we found on the page: enable, javascript
 
-#### ✅ Seo Description
-> The meta description is 70 characters long, which is good.
+#### ⚠️ Seo Description
+> Missing meta description. For best SEO results, include a description between 50-160 characters.
 
 #### ❌ H1 Headings
-> Too many H1 tags found on the page (4). For the best SEO results there should be exactly one H1 tag on each page.
+> No H1 tag found. For the best SEO results there should be exactly one H1 tag on each page.
 
-#### ✅ H2 Headings
-> We found 7 H2 tags on your page.
+#### ⚠️ H2 Headings
+> No H2 tags found. Try to use H2 tags to organize your content.
 
 #### ✅ Image Alt Attributes
-> All 41 images have alt attributes.
+> All 0 images have alt attributes.
 
-#### ✅ Keywords In Title Desc
-> Common keywords found in title/description: agent, agents, marketplace
+#### ⚠️ Keywords In Title Desc
+> Your page title or meta-description does not contain any of your most common keywords.
 
-#### ⚠️ Links Ratio
-> Found 6 internal links and 9 external links.
+#### ✅ Links Ratio
+> Found 0 internal links and 0 external links.
 
-#### ✅ Seo Title
-> The SEO title is 17 characters long.
+#### ⚠️ Seo Title
+> The SEO title is 6 characters long.
 
 #### ✅ Responsive Check
 > Site is responsive (Viewport tag present).
@@ -62,25 +62,25 @@
 #### ✅ Broken Links
 > No broken internal links found.
 
-#### ⚠️ Robots Txt
-> Robots.txt file is missing. It helps search engines crawl your site.
+#### ✅ Robots Txt
+> Robots.txt file found and accessible.
 
-#### ⚠️ Sitemaps
-> XML sitemap missing. It helps engines discover and index your pages.
+#### ✅ Sitemaps
+> XML sitemap found.
 
 #### ⚠️ Www Canonicalization
 > The site does not resolve non-WWW and WWW versions to the same URL.
 
 ## ⚡ Performance Metrics
 
-#### ⚠️ Page Size
-> The size of the HTML document is 202 Kb.
+#### ✅ Page Size
+> The size of the HTML document is 2 Kb.
 
 #### ✅ Response Time
-> The average response time of the page is 0.11 seconds.
+> The average response time of the page is 0.14 seconds.
 
-#### ⚠️ Page Objects
-> We found 63 objects on your page (41 images, 20 JS, 2 CSS).
+#### ✅ Page Objects
+> We found 10 objects on your page (0 images, 7 JS, 3 CSS).
 
 ## 🛡️ Security Audit
 
