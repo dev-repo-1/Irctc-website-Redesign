@@ -1,13 +1,13 @@
 # SEO Health Report: https://www.ailifebot.com
-> Full Deep Scan completed on Sat, 21 Mar 2026 05:10:48 GMT
+> Full Deep Scan completed on Sat, 21 Mar 2026 05:15:05 GMT
 
 ## 📊 Executive Summary
 | Category | Score | Status |
 | :--- | :--- | :--- |
-| **Overall Health** | **67%** | ❌ Critical |
+| **Overall Health** | **63%** | ❌ Critical |
 | Basic SEO | 70% | ⚠️ |
 | Advanced SEO | 63% | ⚠️ |
-| Performance | 33% | ⚠️ |
+| Performance | 0% | ⚠️ |
 | Security | 100% | ✅ |
 
 ## 🛠️ Basic SEO Findings
@@ -76,8 +76,8 @@
 #### ⚠️ Page Size
 > The size of the HTML document is 172 Kb.
 
-#### ✅ Response Time
-> The average response time of the page is 0.36 seconds.
+#### ⚠️ Response Time
+> The average response time of the page is 1.20 seconds.
 
 #### ⚠️ Page Objects
 > We found 213 objects on your page (182 images, 20 JS, 11 CSS).
