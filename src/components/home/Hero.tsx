@@ -19,10 +19,10 @@ const Hero = () => {
       
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-16 items-center">
         <div className="max-w-xl">
-          <h1 
+          <h1
             ref={titleRef}
-            className={getAnimationClass(titleInView, 'animate-fade-in', '')}
-          >
+            className={getAnimationClass(titleInView, 'animate-fade-in', '')}>
+            
             <span className="block text-4xl md:text-5xl font-bold mb-4">
               Travel Across India
             </span>
@@ -31,16 +31,16 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p 
+          <p
             ref={subtitleRef}
             className={cn(
               "mt-6 text-lg text-muted-foreground leading-relaxed",
               getAnimationClass(subtitleInView, 'animate-fade-in', 'animate-stagger-1')
-            )}
-          >
-            Book train tickets effortlessly with our redesigned platform. 
-            Experience seamless journeys across India with real-time updates 
-            and personalized recommendations.
+            )}>
+            Effortlessly book train tickets online for your next adventure across India with our newly redesigned platform. Experience seamless Indian train travel, powered by real-time train updates and intelligent, personalized journey recommendations. We make your train booking simple, fast, and reliable, ensuring you reach your destination with ease.
+
+
+
           </p>
           
           <div className="hidden md:flex mt-8 space-x-4 items-center">
@@ -48,35 +48,35 @@ const Hero = () => {
               "flex -space-x-2",
               getAnimationClass(subtitleInView, 'animate-fade-in', 'animate-stagger-2')
             )}>
-              {[1, 2, 3, 4].map((i) => (
-                <div 
-                  key={i} 
-                  className="w-8 h-8 rounded-full bg-gradient-card shadow-md"
-                  style={{ 
-                    backgroundImage: `url(https://randomuser.me/api/portraits/men/${20 + i}.jpg)`,
-                    backgroundSize: 'cover'
-                  }}
-                ></div>
-              ))}
+              {[1, 2, 3, 4].map((i) =>
+              <div
+                key={i}
+                className="w-8 h-8 rounded-full bg-gradient-card shadow-md"
+                style={{
+                  backgroundImage: `url(https://randomuser.me/api/portraits/men/${20 + i}.jpg)`,
+                  backgroundSize: 'cover'
+                }}>
+              </div>
+              )}
             </div>
             <p className={cn(
               "text-sm text-muted-foreground",
               getAnimationClass(subtitleInView, 'animate-fade-in', 'animate-stagger-3')
-            )}>
-              Trusted by 10M+ travelers
+            )}>Trusted by over 10 million train travelers
+
             </p>
           </div>
         </div>
         
-        <div 
-          ref={formRef} 
-          className={getAnimationClass(formInView, 'animate-slide-in-right', '')}
-        >
+        <div
+          ref={formRef}
+          className={getAnimationClass(formInView, 'animate-slide-in-right', '')}>
+          
           <BookingForm />
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
