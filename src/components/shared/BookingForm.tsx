@@ -8,7 +8,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { cn } from '@/lib/utils';
 
-const BookingForm = ({ className }: { className?: string }) => {
+const BookingForm = ({ className }: {className?: string;}) => {
   const [date, setDate] = useState<Date>();
   const [fromStation, setFromStation] = useState('');
   const [toStation, setToStation] = useState('');
@@ -22,8 +22,8 @@ const BookingForm = ({ className }: { className?: string }) => {
   return (
     <div className={cn('glass rounded-2xl p-6 sm:p-8 border-accent/10 shadow-md', className)}>
       <h2 className="text-lg sm:text-xl font-semibold mb-6 flex items-center">
-        <Train className="w-5 h-5 mr-2 text-accent" />
-        Book Your Journey
+        <Train className="w-5 h-5 mr-2 text-accent" />Book Your Train Journey
+
       </h2>
       
       <form onSubmit={handleSearch} className="space-y-5">
@@ -40,8 +40,8 @@ const BookingForm = ({ className }: { className?: string }) => {
                 className="pl-9 bg-white/50"
                 value={fromStation}
                 onChange={(e) => setFromStation(e.target.value)}
-                required
-              />
+                required />
+              
             </div>
           </div>
           
@@ -57,15 +57,15 @@ const BookingForm = ({ className }: { className?: string }) => {
                 className="pl-9 bg-white/50"
                 value={toStation}
                 onChange={(e) => setToStation(e.target.value)}
-                required
-              />
+                required />
+              
             </div>
           </div>
         </div>
         
         <div className="space-y-2">
-          <label htmlFor="date" className="text-sm font-medium text-muted-foreground">
-            Travel Date
+          <label htmlFor="date" className="text-sm font-medium text-muted-foreground">Departure Date
+
           </label>
           <Popover>
             <PopoverTrigger asChild>
@@ -74,10 +74,10 @@ const BookingForm = ({ className }: { className?: string }) => {
                 className={cn(
                   "w-full justify-start text-left font-normal bg-white/50",
                   !date && "text-muted-foreground"
-                )}
-              >
+                )}>
+                
                 <CalendarIcon className="mr-2 h-4 w-4" />
-                {date ? format(date, "PPP") : <span>Select departure date</span>}
+                {date ? format(date, "PPP") : <span>Select your train departure date</span>}
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-auto p-0 pointer-events-auto">
@@ -87,8 +87,8 @@ const BookingForm = ({ className }: { className?: string }) => {
                 onSelect={setDate}
                 initialFocus
                 disabled={(date) => date < new Date()}
-                className="p-3"
-              />
+                className="p-3" />
+              
             </PopoverContent>
           </Popover>
         </div>
@@ -98,8 +98,8 @@ const BookingForm = ({ className }: { className?: string }) => {
           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Button>
       </form>
-    </div>
-  );
+    </div>);
+
 };
 
 export default BookingForm;

@@ -44,7 +44,7 @@ const RouteCard = ({
               <h3 className="font-semibold text-lg">{trainName}</h3>
             </div>
             <div className="text-right">
-              <p className="text-xs text-muted-foreground mb-1">Price from</p>
+              <p className="text-xs text-muted-foreground mb-1">Starting Price</p>
               <p className="font-semibold text-lg text-accent">{price}</p>
             </div>
           </div>
@@ -89,13 +89,13 @@ const RouteCard = ({
           </div>
           
           <Button className="w-full group bg-gradient-purple hover:opacity-90">
-            <span>Book Now</span>
+            <span>Book Online</span>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default RouteCard;

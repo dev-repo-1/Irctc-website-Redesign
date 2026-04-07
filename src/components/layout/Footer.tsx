@@ -11,11 +11,11 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <h3 className="text-xl font-bold">IRCTC</h3>
-              <span className="text-xs font-light text-primary/70">Reimagined</span>
+              <span className="text-xs font-light text-primary/70">Train Journeys</span>
             </div>
             
-            <p className="text-muted-foreground mb-6">
-              A modern approach to train travel across India with seamless bookings and real-time updates.
+            <p className="text-muted-foreground mb-6">Discover a modern approach to Indian Railways train travel, offering seamless online bookings and real-time updates for your journeys across India.
+
             </p>
             
             <div className="flex space-x-4">
@@ -48,7 +48,7 @@ const Footer = () => {
                 <Link to="/pnr" className="text-muted-foreground hover:text-primary transition-colors">PNR Status</Link>
               </li>
               <li>
-                <Link to="/holidays" className="text-muted-foreground hover:text-primary transition-colors">Holiday Packages</Link>
+                <Link to="/holidays" className="text-muted-foreground hover:text-primary transition-colors">Train Holiday Packages</Link>
               </li>
               <li>
                 <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</Link>
@@ -61,10 +61,10 @@ const Footer = () => {
             <h3 className="font-semibold mb-6 text-lg">Services</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/trains" className="text-muted-foreground hover:text-primary transition-colors">Train Tickets</Link>
+                <Link to="/trains" className="text-muted-foreground hover:text-primary transition-colors">Book Train Tickets</Link>
               </li>
               <li>
-                <Link to="/tatkal" className="text-muted-foreground hover:text-primary transition-colors">Tatkal Booking</Link>
+                <Link to="/tatkal" className="text-muted-foreground hover:text-primary transition-colors">Tatkal Train Booking</Link>
               </li>
               <li>
                 <Link to="/e-catering" className="text-muted-foreground hover:text-primary transition-colors">E-Catering</Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <Link to="/tourism" className="text-muted-foreground hover:text-primary transition-colors">Tourism</Link>
               </li>
               <li>
-                <Link to="/hotels" className="text-muted-foreground hover:text-primary transition-colors">Hotel Bookings</Link>
+                <Link to="/hotels" className="text-muted-foreground hover:text-primary transition-colors">Travel Hotel Bookings</Link>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-primary" />
-                <span className="text-muted-foreground">Indian Railways, New Delhi, 110001, India</span>
+                <span className="text-muted-foreground">IRCTC (Indian Railways), New Delhi, 110001, India</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-primary" />
@@ -92,7 +92,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
-                <span className="text-muted-foreground">care@irctc.co.in</span>
+                <span className="text-muted-foreground">Email: care@irctc.co.in</span>
               </li>
             </ul>
           </div>
@@ -100,23 +100,23 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-200 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} IRCTC Reimagined. All rights reserved.
+            &copy; {new Date().getFullYear()}© 2024 IRCTC Reimagined. All rights reserved.
           </p>
           <div className="mt-4 flex justify-center space-x-6">
-            <Link to="/privacy" className="text-xs text-muted-foreground hover:text-primary transition-colors">
-              Privacy Policy
+            <Link to="/privacy" className="text-xs text-muted-foreground hover:text-primary transition-colors">Privacy Policy
+
             </Link>
-            <Link to="/terms" className="text-xs text-muted-foreground hover:text-primary transition-colors">
-              Terms of Service
+            <Link to="/terms" className="text-xs text-muted-foreground hover:text-primary transition-colors">Terms of Service
+
             </Link>
-            <Link to="/refund" className="text-xs text-muted-foreground hover:text-primary transition-colors">
-              Refund Policy
+            <Link to="/refund" className="text-xs text-muted-foreground hover:text-primary transition-colors">Refund Policy
+
             </Link>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
